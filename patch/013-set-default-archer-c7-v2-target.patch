@@ -6,7 +6,7 @@ index 7f7dc6d..6e0e3aa 100755
  
  choice
  	prompt "Target Profile"
-+	default TARGET_ar71xx_generic_DEVICE_tl-wr1043nd-v1
++	default TARGET_ar71xx_generic_DEVICE_archer-c7-v2
  
  EOF
  	foreach my $target (@target) {
