@@ -29,12 +29,11 @@ diff --git a/toolchain/gcc/final/Makefile b/toolchain/gcc/final/Makefile
 index b815f67..2cbeede 100644
 --- a/toolchain/gcc/final/Makefile
 +++ b/toolchain/gcc/final/Makefile
-@@ -8,6 +8,7 @@ GCC_CONFIGURE += \
- 	--enable-languages=$(TARGET_LANGUAGES) \
+@@ -9,6 +9,7 @@ GCC_CONFIGURE += \
  	--enable-shared \
  	--enable-threads \
-+	--with-mips-plt --enable-default-pie \
  	--with-slibdir=$(TOOLCHAIN_DIR)/lib \
++	--with-mips-plt --enable-default-pie \
  	--enable-lto \
  	--with-libelf=$(TOPDIR)/staging_dir/host
  
