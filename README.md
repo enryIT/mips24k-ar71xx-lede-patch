@@ -6,7 +6,6 @@ Dependencies
 
 * LEDE BuildRoot
 * LEDE BuildRoot Dependencies
-* Java Runtime
 
 How to use
 ----------
