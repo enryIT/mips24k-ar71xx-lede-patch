@@ -6,7 +6,7 @@ index 11cce03..b976bdc 100644
  	default n
  config BUSYBOX_DEFAULT_FEATURE_EDITING_HISTORY
  	int
--	default 256
+-	default 16
 +	default 16
  config BUSYBOX_DEFAULT_FEATURE_EDITING_SAVEHISTORY
  	bool
