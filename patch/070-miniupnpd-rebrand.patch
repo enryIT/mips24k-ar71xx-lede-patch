@@ -10,6 +10,6 @@
 +	$(SED) 's|#define ROOTDEV_MANUFACTURER		OS_NAME|#define ROOTDEV_MANUFACTURER		"TP-LINK"|' $(PKG_BUILD_DIR)/upnpdescstrings.h
 +	$(SED) 's|router|Router|' $(PKG_BUILD_DIR)/upnpdescstrings.h
 +	$(SED) 's|router|Router|' $(PKG_BUILD_DIR)/upnpglobalvars.c
- 	echo "LEDE" | tr \(\)\  _ >$(PKG_BUILD_DIR)/os.lede
+ 	echo "LEDE" | tr \(\)\  _ >$(PKG_BUILD_DIR)/os.openwrt
  endef
  
