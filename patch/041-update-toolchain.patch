@@ -19,7 +19,7 @@ index 9e535c4..5a22693 100644
  
  choice
  	prompt "Binutils Version" if TOOLCHAINOPTS
--	default BINUTILS_USE_VERSION_2_25_1 if !arc
+-	default BINUTILS_USE_VERSION_2_27 if !arc
 +	default BINUTILS_USE_VERSION_2_27 if !arc
  	default BINUTILS_USE_VERSION_2_26_ARC if arc
  	help
