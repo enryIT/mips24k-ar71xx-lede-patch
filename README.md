@@ -12,24 +12,23 @@ How to use
 ----------
 
 * Install all the development packages required for LEDE BuildRoot
-* Install Java Runtime
 * Clone the LEDE Repository
 
-    git clone https://github.com/lede-project/source.git lede --depth 1
-
+    git clone https://github.com/lede-project/source.git
+    
 Clone this Repository and copy into the LEDE repository
 
-    git clone https://github.com/gwlim/mips24k-lede-patch.git temp --depth 1; mv temp/* lede/; rm -rf temp
+    git clone https://github.com/enryIT/mips24k-lede-patch.git temp --depth 1; mv temp/* source/; rm -rf temp
 
 Change directory into the LEDE Repository
 
-    cd lede
+    cd source
 
 Run the script
 
 ./patch_LEDE.sh
 
-Make Menuconfig and select the Target Profile TP-LINK TL-WR1043ND (all the packages and config is inside except build target
+Make Menuconfig and select the Target Profile Archer C7 v2 (all the packages and config is inside except build target
 
     make menuconfig
 
